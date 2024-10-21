@@ -1,0 +1,34 @@
+.historia{
+    background-color: rgb(22, 22, 22);
+}
+.sobre-historia{
+    width: 70%;
+    font-size: 20px;
+    margin-left: 15%;
+    text-align: center;
+}
+.sobre-historia h4{
+    color: rgb(52, 52, 223);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+.video h4{
+    color: rgb(52, 52, 223);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   padding-left: 220px;
+   font-size: 22px;
+}
+.sobre-historia p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.video{
+    margin-top: 100px;
+    margin-left: 35%;
+    padding-bottom: 100px;
+}

@@ -1,0 +1,44 @@
+.container{
+    background-color: rgb(19, 18, 18);
+    width: 100%;
+    color: white; 
+}
+nav img{
+    width: 100px;
+}
+nav{
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+}
+nav li{
+    padding-left: 25px;
+    font-size: 20px;
+    padding-top: 10px;
+    transition: 0.5s ease-in-out;
+}
+nav li:hover{
+    color: #3434df;
+}
+.btn-jogar{
+    padding: 10px;
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #3434df;
+    border: none;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.btn-jogar:hover{
+    background-color: #3434a1;
+    transform: scale(1.1);
+}

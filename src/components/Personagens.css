@@ -1,0 +1,68 @@
+.personagens{
+    background-color: rgb(22, 22, 22);
+    height: 88vh;
+}
+.container-personagem{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 70%;
+    margin-left: 15%;
+}
+.container-personagem div{
+    padding-top: 10px;
+}
+.container-personagem img{
+    width: 200px;
+    border-radius: 5px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.card span{
+   padding-left: 80px;
+}
+.card p{
+    padding-bottom: 0;
+    font-family: monospace;
+    font-size: 14px;
+}
+.assasino {  
+    color: red;
+}
+.mago{
+    color: blue;
+}
+.atirador{
+    color: orange;
+}
+.caracteristicas{
+    background-color: rgb(22, 22, 22);
+    
+}
+.caracteristicas h2{
+    text-align: center;
+}
+.info-personagens{
+    width: 50%;
+    margin-left: 25%;
+    font-size: 22px;
+}
+.info-guerreiro{
+    color: red;
+}
+.info-mago{
+    color: blue;
+}
+.arqueiro{
+    padding-bottom: 100px;
+}
+.caracteristicas h2{
+    padding-top: 70px;
+    text-align: center;
+    color: rgb(52, 52, 223);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   font-size: 22px;
+}
